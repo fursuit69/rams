@@ -1,6 +1,12 @@
 {{ attendee.first_name }},
 
-Thanks for pre-registering for {{ c.EVENT_NAME }}. Our records indicate that you are under the age of 18, and as such, you will need a signed parental consent form. If a parent/legal guardian will be present at {{ c.EVENT_NAME }}, then they can sign the consent form when you pick up your badge at Registration in Expo Hall E. If a parent/legal guardian will not be at the event, the form may be brought pre-signed, however it MUST be notarized. We will not accept pre-signed forms that are not notarized. You may find the form at {{ c.CONSENT_FORM_URL }}.
+Thank you for pre-registering for {{ c.EVENT_NAME }}. Our records indicate that you are under the age of 18. 
+
+All attendees <b>17 years old</b> during the convention must either attend with their parent/guardian or have the signed and notarized <b>Parental Permission Form</b> if attending alone.
+
+All attendees <b>age 16 and under</b> during the convention must attend with their parent/guardian OR with another adult approved by the parent/guardian. If you are attending with another adult approved by your parent or guardian, the <b>Short Term Guardian Form<b> must be completed and notorized. 
+
+Information on completing the Parental Permission Form or the Short Term Guardian Form can be found here: <a href="https://www.furfest.org/minor-consent-form">https://www.furfest.org/minor-consent-form</a>.
 
 If you are actually over 18, please update your age in our database at {{ c.URL_BASE }}/preregistration/confirm?id={{ attendee.id }} prior to picking up your badge.
 
