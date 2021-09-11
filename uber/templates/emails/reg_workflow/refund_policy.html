@@ -1,5 +1,5 @@
 {% if not c.REFUND_CUTOFF %}
-{{ c.EVENT_NAME }} has a no-refund policy for all registrations.
+{{ c.EVENT_NAME }} has a no-refund policy for all checked-in registrations.
 {% elif c.REFUND_CUTOFF < c.ESCHATON %}
 {{ c.EVENT_NAME }} has a limited refund policy for registrations.
 {% endif %}
